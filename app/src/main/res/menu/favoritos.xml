@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add_route"
+        android:title="Agregar ruta" />
+    <item
+        android:id="@+id/action_view_routes"
+        android:title="Ver rutas" />
+</menu>

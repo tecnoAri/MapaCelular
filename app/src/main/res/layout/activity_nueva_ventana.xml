@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresar comentarios"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingRight="8dp" />
+
+
+    <TextView
+        android:id="@+id/nombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/correoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/comentarioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingRight="8dp" />
+
+    <Button
+        android:id="@+id/botonNuevaVentana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Botón"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:onClick="openVentanaSecundaria"/>
+
+</LinearLayout>
